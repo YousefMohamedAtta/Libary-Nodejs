@@ -8,7 +8,7 @@ const bookRouter = require('./Routes/books.cjs')
 const app = express()
 app.use(bodyParser.json())
 
-const url = "mongodb+srv://yousef:123Aa123@database.bs9dc2k.mongodb.net/Data"
+const url = "mongodb+srv://************@database.bs9dc2k.mongodb.net/Data"
 
 const  connectDB = async() =>{
     try{
